@@ -1,0 +1,170 @@
+<%#
+Harvey Donnelly 2018
+http://www.donl.io/
+ %>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<title>
+		<%= name %> |
+		<%= title %>
+	</title>
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="vendor/prism/prism.css"/>
+	<link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link rel="icon" href="/img/icon.ico">
+	<script src="lib/typed.js"></script>
+
+</head>
+
+<body id="page-top">
+
+	<%# <a class="menu-toggle rounded" href="#">
+		<i class="fas fa-bars"></i>
+	</a>
+	<nav id="sidebar-wrapper">
+		<div class="sidebar-content">
+			<ul class="sidebar-nav">
+				<li class="sidebar-brand">
+					<a class="js-scroll-trigger" href="#page-top"><img src="img/icon_2.png" height="20px" /><strong>Donlio</strong></a>
+				</li>
+				<li class="sidebar-nav-item">
+					<a class="js-scroll-trigger" href="#page-top">Home</a>
+				</li>
+				<li class="sidebar-nav-item">
+					<a class="js-scroll-trigger" href="#about">About</a>
+				</li>
+				<li class="sidebar-nav-item">
+					<a class="js-scroll-trigger" href="#services">Portfolio</a>
+				</li>
+				<li class="sidebar-nav-item">
+					<a class="js-scroll-trigger" href="#portfolio">Blog</a>
+				</li>
+				<li class="sidebar-nav-item">
+					<a class="js-scroll-trigger" href="#contact">Contact</a>
+				</li>
+			</ul>
+			<div class="sidebar-social">
+				<ul>
+					<li class="fa fa-twitter"></li>
+					<li class="fa fa-github"></li>
+					<li class="fa fa-instagram"></li>
+				</ul>
+			</div>
+		</div>
+	</nav> %>
+
+	<!-- Header -->
+	<div id="masthead-container">
+		<div id="particles-js"></div>
+		<div class="overlay"></div>
+		<header class="masthead d-flex">
+			<div class="container my-auto">
+				<div class="type-wrap">
+					<div id="typed-strings">
+						<p><strong>Harvey Donnelly</strong></p>
+						<p><strong>student</strong></p>
+						<p><strong>software developer</strong></p>
+						<p><strong>prospective scientist</strong></p>
+						<p><strong>obsessive coffee drinker</strong></p>
+					</div>
+					<span id="typed" style="white-space:pre;"></span>
+					<h2>
+						<a href="<%= twitter_url %>"><span class="fa fa-twitter"></span></a> &nbsp;
+						<a href="<%= github_url %>"><span class="fa fa-github"></span></a> &nbsp;
+						<a href="<%= linkedin_url %>"><span class="fa fa-linkedin-square"></span></a>
+					</h2>
+				</div>
+		</header>
+	</div>
+</br>
+	<!-- About -->
+	<section class="container" id="about">
+		<div class="row">
+			<div class="col-md-6">
+				<pre>
+<code class="language-javascript" style="font-size: 2em; font-family:'Century Gothic Bold';">// about me</code>
+
+<code class="language-shell">harvey@donl.io:~$ bash about.sh
+
+> Conscientious and industrious student aspiring to become a leading software engineer.
+
+> </code><code>Skilled with most contemporary programming languages and technologies.</code><code class="language-shell">
+
+> Profoundly passionate about computer science, physics and mathematics.
+
+> An ardent problem solver, endeavouring to pursue new and innovative solutions to the major issues facing our global society.
+
+</code><code><span style="color: red;"> [ ERROR ] </span> Need more sleep (or coffee).</code></pre>
+			</div>
+			<div class="col-md-6">
+				<pre><code class="language-javascript" style="font-size: 2em; font-family:'Century Gothic Bold';">// contact
+</code><code class="language-javascript">
+var donlio = {</code><code class="language-json">
+
+"name": "Harvey Donnelly",
+"twitter": "@HarveyDonlio",
+"github": "@HarveyDonlio",
+"email": "harvey@donl.io"
+</code><code class="language-javascript">
+};</code>
+<code class="language-javascript" style="font-size: 2em; font-family:'Century Gothic Bold';">// development
+</code><code class="language-javascript">
+console.log("My personal website (donl.io) is still being developed.");
+
+console.log("Tutorials, projects and a blog are all coming soon!");
+
+					</code>
+				</pre>
+
+			</div>
+		</div>
+
+	</section>
+
+	<!-- Footer -->
+</br>
+	<footer class="footer text-center">
+		<div class="container">
+			<h2>
+				<a href="<%= twitter_url %>"><span class="fa fa-twitter"></span></a> &nbsp;
+				<a href="<%= github_url %>"><span class="fa fa-github"></span></a> &nbsp;
+				<a href="<%= linkedin_url %>"><span class="fa fa-linkedin-square"></span></a>
+			</h2>
+		</br>
+			<p class="text-muted small mb-0">Copyright &copy; Harvey Donnelly 2018</p>
+		</div>
+	</footer>
+
+	<!-- Scroll to Top Button-->
+	<a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+		<i class="fas fa-angle-up"></i>
+	</a>
+
+	<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+	<!-- Bootstrap core JavaScript -->
+	<script src="vendor/jquery/jquery.min.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+	<!-- Plugin JavaScript -->
+	<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+	<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+	<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+	<script src="vendor/prism/prism.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>
