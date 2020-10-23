@@ -2,15 +2,16 @@
 
 	"title": "Donlio",
 	"name": "Harvey Donnelly",
+	"email": "harvey@donl.io",
 	"description": "",
-	"year": "2018",
+	"year": "2020",
 
-	"twitter_url": "https://www.twitter.com/HarveyDonlio",
-	"github_url": "https://github.com/HarveyDonlio",
-	"linkedin_url": "https://www.linkedin.com/in/HarveyDonlio",
+	"twitter_url": "https://www.twitter.com/HarveyRDonnelly",
+	"github_url": "https://github.com/HarveyRDonnelly",
+	"linkedin_url": "https://www.linkedin.com/in/HarveyRDonnelly",
 
-	"twitter_username": "@donlio",
-	"github_username": "@donlio",
-	"linkedin_username": "@donlio"
+	"twitter_username": "HarveyRDonnelly",
+	"github_username": "HarveyRDonnelly",
+	"linkedin_username": "HarveyRDonnelly"
 
 }

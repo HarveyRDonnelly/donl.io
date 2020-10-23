@@ -1,5 +1,5 @@
 <%#
-Harvey Donnelly 2018
+Harvey Donnelly 2020
 http://www.donl.io/
  %>
 
@@ -30,14 +30,17 @@ http://www.donl.io/
 
 <body id="page-top">
 
-	<%# <a class="menu-toggle rounded" href="#">
+	<a class="menu-toggle rounded" href="#">
 		<i class="fas fa-bars"></i>
 	</a>
 	<nav id="sidebar-wrapper">
 		<div class="sidebar-content">
 			<ul class="sidebar-nav">
 				<li class="sidebar-brand">
-					<a class="js-scroll-trigger" href="#page-top"><img src="img/icon_2.png" height="20px" /><strong>Donlio</strong></a>
+					<a class="js-scroll-trigger" href="#page-top">
+						</br>
+						<img src="img/banner_1.png" width="90%" />
+					</a>
 				</li>
 				<li class="sidebar-nav-item">
 					<a class="js-scroll-trigger" href="#page-top">Home</a>
@@ -60,10 +63,12 @@ http://www.donl.io/
 					<li class="fa fa-twitter"></li>
 					<li class="fa fa-github"></li>
 					<li class="fa fa-instagram"></li>
+					&nbsp;<strong>|</strong>&nbsp;
+					<strong>Donlio</strong>
 				</ul>
 			</div>
 		</div>
-	</nav> %>
+	</nav>
 
 	<!-- Header -->
 	<div id="masthead-container">
@@ -72,11 +77,14 @@ http://www.donl.io/
 		<header class="masthead d-flex">
 			<div class="container my-auto">
 				<div class="type-wrap">
+					<h2>
+						<img src="img/icon_2.png" height="75em" />
+					</h2>
 					<div id="typed-strings">
 						<p><strong>Harvey Donnelly</strong></p>
 						<p><strong>student</strong></p>
-						<p><strong>software developer</strong></p>
-						<p><strong>prospective scientist</strong></p>
+						<p><strong>software engineer</strong></p>
+						<p><strong>STEM enthusiast</strong></p>
 						<p><strong>obsessive coffee drinker</strong></p>
 					</div>
 					<span id="typed" style="white-space:pre;"></span>
@@ -114,9 +122,9 @@ http://www.donl.io/
 var donlio = {</code><code class="language-json">
 
 "name": "Harvey Donnelly",
-"twitter": "@HarveyDonlio",
-"github": "@HarveyDonlio",
-"email": "harvey@donl.io"
+"twitter": "@<%= twitter_username %>",
+"github": "@<%= github_username %>",
+"email": "<%= email %>"
 </code><code class="language-javascript">
 };</code>
 <code class="language-javascript" style="font-size: 2em; font-family:'Century Gothic Bold';">// development
