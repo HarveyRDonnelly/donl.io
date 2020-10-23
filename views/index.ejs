@@ -27,7 +27,12 @@ http://www.donl.io/
 	<link rel="icon" href="/img/icon.ico">
 	<script src="lib/typed.js"></script>
 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+
 </head>
+
+<div class="se-pre-con"></div>
 
 <body id="page-top">
 
@@ -91,8 +96,8 @@ http://www.donl.io/
 						<p><strong>Harvey Donnelly</strong></p>
 						<p><strong>student</strong></p>
 						<p><strong>software engineer</strong></p>
-						<p><strong>STEM enthusiast</strong></p>
 						<p><strong>obsessive coffee drinker</strong></p>
+						<p><strong>Donlio</strong></p>
 					</div>
 					<span id="typed" style="white-space:pre;"></span>
 					<h2>
@@ -167,6 +172,15 @@ console.log("Tutorials, projects and a blog are all coming soon!");
 	<a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
 		<i class="fas fa-angle-up"></i>
 	</a>
+
+	<script>
+	
+	$(window).load(function() {
+		// Animate loader off screen
+		setTimeout(() => {$(".se-pre-con").fadeOut("slow");}, 1000);
+	});
+
+	</script>
 
 	<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 
