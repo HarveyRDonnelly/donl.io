@@ -16,4 +16,8 @@ router.get('/', function(req, res, next) {
 	res.render('index', info);
 });
 
+router.get('/birthday', function(req, res, next) {
+	res.render('birthday/index', info);
+});
+
 module.exports = router;
